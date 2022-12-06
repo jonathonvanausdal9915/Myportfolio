@@ -2,6 +2,7 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
+   "homepage": "http://jonathon9915.github.io/Myportfolio",
  
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
