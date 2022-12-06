@@ -70,12 +70,16 @@ animation: fadeIn 1s 1.7s backwards;
         display: block;
         position: absolute;
         left:35%;
-        bottom:15vh;
+        bottom:20vh;
         font-size:25px;
+        
         
         
     }
     .contact-form {
-        left:1%;
+        left:15%;
+    }
+    .h2 {
+      font-size:15px;
     }
 }
