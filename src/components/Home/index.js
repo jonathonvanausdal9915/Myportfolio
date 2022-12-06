@@ -6,6 +6,9 @@ import Loader from 'react-loaders'
 
 
 const Home = () => {
+    
+   
+
 
     return (<>
         <div className="container home-page">

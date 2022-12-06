@@ -41,9 +41,10 @@ animation: fadeIn 1s 1.7s backwards;
 .contact-me {
     display:flex;
     flex-direction: row;
-    gap:50px;
-    font-size:40px;
+    gap:1.5%;
+    font-size:35px;
     justify-content: center;
+    width:100vw;
 }
 .phone {
     animation: fadeIn 2s 2s backwards;

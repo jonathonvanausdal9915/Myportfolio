@@ -24,7 +24,7 @@ const Project = () => {
 
         <div className="project-4">
         <iframe title="project-4" src="https://giphy.com/embed/bjiNNXygCgu204OnBz" width="480" height="271" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-        <a href="https://trail-media.herokuapp.com/" id="btn-3" className="btn-1" rel="noopener noreferrer" target="_blank">Try Me!</a>
+        <a href="https://jonathonvanausdal9915.github.io/Paneless-Windows/" id="btn-3" className="btn-1" rel="noopener noreferrer" target="_blank">Try Me!</a>
         </div> 
     </div>
     
