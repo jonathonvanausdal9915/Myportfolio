@@ -1,11 +1,12 @@
 .project-layout {
-    height:800px;
+    height:80%;
     width:100%;
     margin:auto;
     text-align: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
+ 
    
     color:white;
 }
@@ -82,14 +83,76 @@
     justify-content: center;
     gap:150px;
 }
+@media(max-height:800px) {
+    .box-1 {
+      position:absolute;
+      top:5%;
+      gap:1px;
+      
+  
+    }
+  
+    .giphy-embed {
+    width:360px;
+    height:151px;
+    }
+    .box-2 {
+      position:absolute;
+      bottom:5%;
+      gap:1px;
+  
+      
+  }
+      .btn-1 {
+          font-size: 12px;
+      }
+  .project-1 {
+      width:360px;
+      height:151px;
+      margin:auto;
+      position:absolute;
+      left:25vw;
+      top:10vh;
+       
+      }
+      .project-2 {
+        width:360px;
+        height:151px;
+      margin:auto;
+      position:absolute;
+      left:50vw;
+      top:10vh;
+       
+  
+      }
+      .project-3 {
+        width:360px;
+        height:151px;
+          margin:auto;
+          position:absolute;
+          left:50vw;
+          top:10vh;
+      
+      }
+      .project-4 {
+        width:360px;
+        height:151px;
+          margin:auto;
+          position:absolute;
+          left:25vw;
+          top:10vh;
+          
+      }
+  }
 @media(max-height:900px) {
   .box-1 {
     position:absolute;
-    top:12%;
+    top:5%;
     gap:1px;
-    top:1%;
+    
 
   }
+
   .giphy-embed {
     width:460px;
     height:251px;
@@ -107,25 +170,39 @@
 .project-1 {
     width:460px;
     height:251px;
-        margin:auto;
+    margin:auto;
+    position:absolute;
+    left:10vw;
+    top:10vh;
      
     }
     .project-2 {
-        width:460px;
-        height:251px;
-        margin:auto;
+    width:460px;
+    height:251px;
+    margin:auto;
+    position:absolute;
+    left:50vw;
+    top:10vh;
+     
 
     }
     .project-3 {
         width:460px;
         height:251px;
         margin:auto;
+        position:absolute;
+        left:50vw;
+        top:10vh;
     
     }
     .project-4 {
         width:460px;
         height:251px;
         margin:auto;
+        position:absolute;
+        left:10vw;
+        top:10vh;
+        
     }
 }
 
@@ -211,7 +288,7 @@
     .box-1 {
         position: absolute;
         
-        bottom:55vh;
+        bottom:58vh;
         flex-direction: column;
         gap:1px;
     }
@@ -219,7 +296,7 @@
         flex-direction: column;
         position: absolute;
        
-        bottom:10vh;
+        bottom:15vh;
         gap:1px;
     }
     .btn-1{
