@@ -8,7 +8,7 @@
 }
 .resumebtn {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 4px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
@@ -19,9 +19,9 @@
     height:100px;
     animation: fadeIn 2s 2s backwards;
     white-space: nowrap;
-    width:150px;
+    width:200px;
     text-align: center;
-    height:55px;
+    height:70px;
 
     .resumebtn:hover {
         background:white;
@@ -36,4 +36,24 @@
     justify-content: center;
     margin:auto;
     color:white;
+}
+@media (max-width:850px){
+    .resume {
+        font-size:40px;
+    }
+    .resumebtn {
+        width:125px;
+        height:40px;
+        font-size:15px;
+    }
+}
+@media (max-width:600px){
+    .resume {
+        font-size:25px;
+    }
+    .resumebtn {
+        width:125px;
+        height:40px;
+        font-size:15px;
+    }
 }

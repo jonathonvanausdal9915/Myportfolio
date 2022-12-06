@@ -29,15 +29,8 @@
 .react-pic {
     display:block;
     position:absolute;
-    top:48vh;
-    left:11vw;
+    left:55%;
     height:12vh;
     animation: fadeIn 8s;
-    
-}
-@media (max-width:1200px){
-    .react-pic {
-        left:16vw;
-    }
     
 }
