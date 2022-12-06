@@ -1,5 +1,5 @@
 
-# # Title: My-Portfolio
+## Title: My-Portfolio
 
 ## Discription:
 * This is my REACT portfolio. My REACT portfolio consists of an about me page, home page, contact page, projects page, and a resume page where you can download my resume.
@@ -16,7 +16,7 @@
 
 ## Usage:
 Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: !'[alt text](assets/images/screenshot.png)'
-screenshot: ![alt text](src/assets/js/images/screenshot.png)
+screenshot: ![alt text](src/assets/images/screenshot.png)
 
 ## Credits:
 * Collaborators: n/a
