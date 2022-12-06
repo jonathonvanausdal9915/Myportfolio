@@ -304,3 +304,52 @@
     }
  
 }
+@media (max-height:500px){
+    .h2-project {
+        font-size: 30px;
+        margin:auto;
+    }
+    .project-1 {
+        height:61px;
+        width:260px;
+        margin:auto;
+        
+    }
+    .project-2 {
+        height:61px;
+        width:260px;
+        margin:auto;
+
+    }
+    .project-3 {
+        height:61px;
+        width:260px;
+        margin:auto;
+    }
+    .project-4 {
+        height:61px;
+        width:260px;
+        margin:auto;
+    }
+    .giphy-embed {
+        height:61px;
+        width:260px;
+    }
+    .box-1 {
+        position: absolute;
+        
+        bottom:58vh;
+        flex-direction: column;
+        gap:1px;
+    }
+    .box-2 {
+        flex-direction: column;
+        position: absolute;
+       
+        bottom:15vh;
+        gap:.1px;
+    }
+    .btn-1{
+        font-size:3px;
+    }
+}
