@@ -1,0 +1,39 @@
+.resume {
+    color:white;
+    text-align: center;
+    font-size: 55px;
+    margin-top:100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: fadeIn 1.5s
+}
+.resumebtn {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:white;
+    background:blue;
+    border: 1px solid blue;
+    margin:auto;
+    height:100px;
+    animation: fadeIn 2s 2s backwards;
+    white-space: nowrap;
+    width:150px;
+    text-align: center;
+    height:55px;
+
+    .resumebtn:hover {
+        background:white;
+        color:blue;
+    }
+}
+.resume-file {
+    height:500px;
+    animation: fadeIn 1s 1s backwards;
+    width:500px;
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    color:white;
+}
