@@ -29,9 +29,9 @@ const Contact = () => {
      <h2 className="h2">Send Me An Email <br />
      <FontAwesomeIcon icon={faEnvelope} color="white"/></h2>
      
-      <input className="user_name" placeholder="Enter Name" type="text" name="user_name" />
+      <input className="user_name" placeholder="Enter Your Name" type="text" name="user_name" />
       <br />
-      <input className="user_email"placeholder="Enter Email" type="email" name="user_email" />
+      <input className="user_email"placeholder="Enter Your Email" type="email" name="user_email" />
       <br />
       <textarea  className="message" placeholder="Send Message" name="message" />
       <input type="submit" value="Send" />
