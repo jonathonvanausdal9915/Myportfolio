@@ -82,6 +82,53 @@
     justify-content: center;
     gap:150px;
 }
+@media(max-height:900px) {
+  .box-1 {
+    position:absolute;
+    top:12%;
+    gap:1px;
+    top:1%;
+
+  }
+  .giphy-embed {
+    width:460px;
+    height:251px;
+  }
+  .box-2 {
+    position:absolute;
+    bottom:5%;
+    gap:1px;
+
+    
+}
+    .btn-1 {
+        font-size: 12px;
+    }
+.project-1 {
+    width:460px;
+    height:251px;
+        margin:auto;
+     
+    }
+    .project-2 {
+        width:460px;
+        height:251px;
+        margin:auto;
+
+    }
+    .project-3 {
+        width:460px;
+        height:251px;
+        margin:auto;
+    
+    }
+    .project-4 {
+        width:460px;
+        height:251px;
+        margin:auto;
+    }
+}
+
 @media (max-width:1100px) {
     .h2-project {
         font-size: 30px;

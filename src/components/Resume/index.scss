@@ -50,10 +50,15 @@
 @media (max-width:600px){
     .resume {
         font-size:25px;
+        position:absolute;
+        left:50%;
     }
     .resumebtn {
         width:125px;
         height:40px;
         font-size:15px;
+        position:absolute;
+        top:50%;
+        left:60%;
     }
 }

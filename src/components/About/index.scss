@@ -34,3 +34,23 @@
     animation: fadeIn 8s;
     
 }
+.h2-about {
+    font-size:55px;
+    color:white;
+}
+@media (max-height:1000px){
+    .react-pic {
+        height:100px;
+        left:60%;
+        
+    }
+    .html-pic {
+        height:100px;
+        left:5vw;
+        top:65vh;
+    }
+    .ptag{
+        font-size:20px;
+        width:400px;
+    }
+}

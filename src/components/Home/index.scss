@@ -1,7 +1,7 @@
 
     .text-zone {
         position: absolute;
-        left: 30%;
+        left: 15%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
@@ -9,7 +9,7 @@
     }
     .profile-pic {
         position:absolute;
-        left:45%;
+        left:35%;
         bottom:25%;
 
     }
@@ -72,4 +72,8 @@
         }
     }
 
-
+    @media (max-height:900px){
+        .profile-pic {
+            bottom:15%;
+        }
+    }
