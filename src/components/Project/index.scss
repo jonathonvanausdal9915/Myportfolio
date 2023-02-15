@@ -1,10 +1,10 @@
 .project-layout {
     height:80%;
-    width:100%;
+    width:80%;
     margin:auto;
     text-align: center;
     display:flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
  
    
@@ -13,46 +13,43 @@
 .h2-project {
     color:white;
     font-size:55px;
+    font-weight:600;
     text-align: center;
     animation: fadeIn 2s 1.7s backwards;
     font-family:'Courier New', Courier, monospace;
 }
 .project-1{
-    height:400px;
-    width:480px;
+    width:460px;
+    height:251px;
     color:white;
     animation: fadeIn 5s 5s backwards;
+    margin:auto;
    
 }
 .project-2{
-    height:400px;
-    width:480px;
+    width:460px;
+    height:251px;
     color:white;
     display: block;
     animation: fadeIn 2s 2s backwards;
+    margin:auto;
    
 }
 .project-3 {
-    height:400px;
-    width:480px;
+    width:460px;
+    height:251px;
     color:white;
+    margin:auto;
    
     animation: fadeIn 4s 4s backwards;
     
 }
-.project-4 {
-    height:400px;
-    width:480px;
-    color:white;
-   
-    animation: fadeIn 3s 3s backwards;
-    
-}
+
 .btn-1 {
     background-color: blue;
     color:white;
     font-size: 20px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     padding: 10px 18px;
@@ -60,296 +57,59 @@
     margin-top: 25px;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
+    border-radius:5px;
     &:hover {
         background: white;
         color: blue;
     }
 }
-.box-1 {
-    height:50%;
-    width:100%;
-   
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:150px;
-}
-.box-2 {
-    height:50%;
-    width:100%;
-   
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:150px;
-}
-@media(max-height:800px) {
-    .box-1 {
-      position:absolute;
-      top:5%;
-      gap:1px;
-      
-  
-    }
-  
+
+
+@media(max-height:900px) {
     .giphy-embed {
-    width:360px;
-    height:151px;
+        width:360px;
+        height:161px;
     }
-    .box-2 {
-      position:absolute;
-      bottom:5%;
-      gap:1px;
-  
-      
-  }
       .btn-1 {
-          font-size: 12px;
+          font-size: 10px;
       }
   .project-1 {
-      width:360px;
-      height:151px;
+    width:360px;
+    height:161px;
       margin:auto;
-      position:absolute;
-      left:25vw;
-      top:10vh;
+     
        
       }
       .project-2 {
         width:360px;
-        height:151px;
+        height:161px;
       margin:auto;
-      position:absolute;
-      left:50vw;
-      top:10vh;
+     
        
   
       }
       .project-3 {
         width:360px;
-        height:151px;
+        height:161px;
           margin:auto;
-          position:absolute;
-          left:50vw;
-          top:10vh;
+        
       
       }
-      .project-4 {
-        width:360px;
-        height:151px;
-          margin:auto;
-          position:absolute;
-          left:25vw;
-          top:10vh;
-          
-      }
-  }
-@media(max-height:900px) {
-  .box-1 {
-    position:absolute;
-    top:2%;
-    gap:1px;
-    
-
-  }
-
-  .giphy-embed {
-    width:460px;
-    height:251px;
-  }
-  .box-2 {
-    position:absolute;
-    bottom:1%;
-    gap:1px;
-
-    
-}
-    .btn-1 {
-        font-size: 12px;
-    }
-.project-1 {
-    width:460px;
-    height:251px;
-    margin:auto;
-    position:absolute;
-    left:10vw;
-    top:10vh;
-     
-    }
-    .project-2 {
-    width:460px;
-    height:251px;
-    margin:auto;
-    position:absolute;
-    left:50vw;
-    top:10vh;
-     
-
-    }
-    .project-3 {
-        width:460px;
-        height:251px;
-        margin:auto;
-        position:absolute;
-        left:50vw;
-        top:10vh;
-    
-    }
-    .project-4 {
-        width:460px;
-        height:251px;
-        margin:auto;
-        position:absolute;
-        left:10vw;
-        top:10vh;
-        
-    }
-}
-
-@media (max-width:1100px) {
-    .h2-project {
-        font-size: 30px;
-        margin:auto;
-    }
-    .project-1 {
-        width:360px;
-        height:151px;
-        margin:auto;
-     
-    }
-    .project-2 {
-        width:360px;
-        height:151px;
-        margin:auto;
-
-    }
-    .project-3 {
-        width:360px;
-        height:151px;
-        margin:auto;
-    
-    }
-    .project-4 {
-        width:360px;
-        height:151px;
-        margin:auto;
-    }
-    .giphy-embed {
-        width:360px;
-        height:151px;
-    }
-    .box-1 {
       
-    gap:1px;
+  }
+
+  @media(max-width:900px) {
+    .project-layout {
+        height:80%;
+        width:80%;
+        margin:auto;
+        text-align: center;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+     
        
-       
+        color:white;
     }
-    .box-2 {
-       
-    gap:1px;
       
-    }
-    .btn-1{
-        font-size: 1vh;
-    }
-}
-
-@media (max-width:800px){
-    .h2-project {
-        font-size: 30px;
-        margin:auto;
-    }
-    .project-1 {
-        height:10px;
-        width:200px;
-        margin:auto;
-        
-    }
-    .project-2 {
-        height:10px;
-        width:200px;
-        margin:auto;
-
-    }
-    .project-3 {
-        height:10px;
-        width:200px;
-        margin:auto;
-    }
-    .project-4 {
-        height:10px;
-        width:200px;
-        margin:auto;
-    }
-    .giphy-embed {
-        width:200px;
-        height:150px;
-    }
-    .box-1 {
-        position: absolute;
-        
-        bottom:58vh;
-        flex-direction: column;
-        gap:1px;
-    }
-    .box-2 {
-        flex-direction: column;
-        position: absolute;
-       
-        bottom:15vh;
-        gap:1px;
-    }
-    .btn-1{
-        font-size: 1vh;
-    }
- 
-}
-@media (max-height:500px){
-    .h2-project {
-        font-size: 30px;
-        margin:auto;
-    }
-    .project-1 {
-        height:61px;
-        width:260px;
-        margin:auto;
-        
-    }
-    .project-2 {
-        height:61px;
-        width:260px;
-        margin:auto;
-
-    }
-    .project-3 {
-        height:61px;
-        width:260px;
-        margin:auto;
-    }
-    .project-4 {
-        height:61px;
-        width:260px;
-        margin:auto;
-    }
-    .giphy-embed {
-        height:61px;
-        width:260px;
-    }
-    .box-1 {
-        position: absolute;
-        
-        bottom:58vh;
-        flex-direction: column;
-        gap:1px;
-    }
-    .box-2 {
-        flex-direction: column;
-        position: absolute;
-       
-        bottom:15vh;
-        gap:.1px;
-    }
-    .btn-1{
-        font-size:3px;
-    }
-}
+  }

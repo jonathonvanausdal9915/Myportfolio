@@ -3,7 +3,7 @@ import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf, faDownload } from '@fortawesome/free-solid-svg-icons';
 import Loader from 'react-loaders';
-import resume from '../../assets/images/Resume.pdf';
+import resume from '../../assets/images/JonathonVanausdal.pdf';
 const Resume = () => {
    return (
 <>
