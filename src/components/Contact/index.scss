@@ -10,6 +10,7 @@ bottom:0;
 top:0;
 display:flex;
 flex-direction: column;
+
 text-align: center;
 animation: fadeIn 1s 1.7s backwards;
   
@@ -23,6 +24,7 @@ animation: fadeIn 1s 1.7s backwards;
     font-size:30px;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
+    
 
       
 }
@@ -48,15 +50,35 @@ animation: fadeIn 1s 1.7s backwards;
 }
 .phone {
     animation: fadeIn 2s 2s backwards;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem black,
+    0 0 2rem blue,
+    0 0 0.8rem blue,
+    0 0 2.8rem blue,
+    inset 0 0 1.3rem blue; 
+    border-radius:25px;
 
 }
 .email {
     animation: fadeIn 3s 3s backwards;
-
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem black,
+    0 0 2rem blue,
+    0 0 0.8rem blue,
+    0 0 2.8rem blue,
+    inset 0 0 1.3rem blue; 
+    border-radius:25px;
 }
 .location {
     animation: fadeIn 4s 4s backwards;
-
+    border-radius:25px;
+    box-shadow: 0 0 .2rem #fff,
+    
+    0 0 .2rem black,
+    0 0 2rem blue,
+    0 0 0.8rem blue,
+    0 0 2.8rem blue,
+    inset 0 0 1.3rem blue; 
 }
 @media (max-width:1499px){
     .contact-me {

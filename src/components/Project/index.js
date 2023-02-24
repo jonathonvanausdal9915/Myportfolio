@@ -1,5 +1,6 @@
 
 import './index.scss';
+import genratorScreenshot from '../../assets/images/GeneratorScreenshot.png'
 import Loader from 'react-loaders'
 const Project = () => {
    return (
@@ -16,7 +17,7 @@ const Project = () => {
         <span></span>
         <span></span>
         <span></span>
-        <span></span>Try Me!</a>
+        <span></span><h1></h1>Try Me!</a>
         </div>
 
         <div className="project-2">
@@ -30,9 +31,11 @@ const Project = () => {
     </div>
     
 
+    
+
         <div className="project-3">
-        <iframe title="iframe3" id="iframe3" src="https://giphy.com/embed/LswoJVa0EMVMcH7o5U" width="380" height="171"  frameBorder={0}className="giphy-embed" allowFullScreen></iframe>
-            <a href="https://myfitnesszone.herokuapp.com/" id="btn-2" className="btn-1" rel="noopener noreferrer" target="_blank">
+        <img src={genratorScreenshot} id="iframe3" alt="placeholder" width="380" height="171" />
+            <a href="https://jonathonvanausdal9915.github.io/PasswordGenerator-H3-JV/" id="btn-2" className="btn-1" rel="noopener noreferrer" target="_blank">
         <span></span>
         <span></span>
         <span></span>

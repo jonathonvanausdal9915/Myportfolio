@@ -18,6 +18,13 @@
     margin:auto;
     height:100px;
     animation: fadeIn 2s 2s backwards;
+      box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem white,
+    0 0 2rem blue,
+    0 0 0.8rem blue,
+    0 0 2.8rem blue,
+    inset 0 0 1.3rem blue; 
+    border-radius:25px;
     white-space: nowrap;
     width:200px;
     text-align: center;
