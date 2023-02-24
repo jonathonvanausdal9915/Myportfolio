@@ -26,8 +26,8 @@ const Contact = () => {
    
    
      <form  className="contact-form"ref={form} onSubmit={sendEmail}>
-     <h2 className="h2">Send Me An Email <br />
-     <FontAwesomeIcon icon={faEnvelope} color="white"/></h2>
+     <h1 className="h2">Send Me An Email <br />
+     <FontAwesomeIcon icon={faEnvelope} color="white"/></h1>
      
       <input className="user_name" placeholder="Enter Your Name" type="text" name="user_name" />
       <br />

@@ -10,13 +10,98 @@
    
     color:white;
 }
-.h2-project {
-    color:white;
-    font-size:55px;
-    font-weight:600;
+
+
+
+.neonText {
+    color: #fff;
     text-align: center;
-    animation: fadeIn 2s 1.7s backwards;
-    font-family:'Courier New', Courier, monospace;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+      
+  }
+
+
+/* Additional styling */
+  
+
+
+
+  
+h1 {
+    font-size: 6.2rem;
+    animation: pulsate 0.11s ease-in-out infinite alternate;  
+    font-family: "Vibur", sans-serif;   
+    
+}
+  
+
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #f09,
+      0 0 80px #f09,
+      0 0 90px #f09,
+      0 0 100px #f09,
+      0 0 150px #f09;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #f09,
+    0 0 73px #f09,
+    0 0 80px #f09,
+    0 0 94px #f09,
+    0 0 140px #f09;
+
+} }
+@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px blue,
+        0 0 82px blue,
+        0 0 92px blue,
+        0 0 102px blue,
+        0 0 151px blue;
+    
+    }
+    
+    0% {
+  
+        text-shadow:
+        0 0 7px #fff,
+        0 0 8px #fff,
+        0 0 19px #fff,
+        0 0 40px blue,
+        0 0 79px blue,
+        0 0 89px blue,
+        0 0 99px blue,
+        0 0 141px blue;
+  
+  } 
 }
 .project-1{
     width:460px;
@@ -26,13 +111,19 @@
     margin:auto;
    
 }
+
 .project-2{
-    width:460px;
+    width:380px;
     height:251px;
     color:white;
     display: block;
+    
     animation: fadeIn 2s 2s backwards;
     margin:auto;
+    // box-shadow:
+    // 0 0 30px 15px #fff,  /* inner white */
+    // 0 0 50px 30px #f0f, /* middle magenta */
+    // 0 0 70px 45px blue; /* outer cyan */
    
 }
 .project-3 {
@@ -41,28 +132,120 @@
     color:white;
     margin:auto;
    
+   
     animation: fadeIn 4s 4s backwards;
     
 }
 
-.btn-1 {
-    background-color: blue;
-    color:white;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid blue;
-    margin-top: 25px;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
-    border-radius:5px;
-    &:hover {
-        background: white;
-        color: blue;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.btn-1 {
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color:salmon;
+ 
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+.btn-1:hover {
+  background: salmon;
+  color: white;
+  box-shadow: 0 0 5px salmon, 0 0 25px salmon, 0 0 50px salmon,
+    0 0 200px salmon;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, salmon);
+}
+.btn-1:nth-child(1) {
+  filter: hue-rotate(270deg);
+}
+.btn-1:nth-child(2) {
+  filter: hue-rotate(110deg);
+}
+.btn-1 span {
+  position: absolute;
+  display: block;
+}
+.btn-1 span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, salmon);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+.btn-1 span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, salmon);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+.btn-1span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,salmon);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+.btn-1 span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, salmon);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
 
 
 @media(max-height:900px) {

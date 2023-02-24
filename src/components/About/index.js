@@ -9,7 +9,7 @@ const About = () => {
     // let loader = <Loader type="ball-pulse" />
     return (<>
         <div className='about'>
-            <h2 className="h2-about"><u>About Me</u></h2>
+            <h1 className="h2-about"><u>About Me</u></h1>
             <p className="ptag">Hi!,</p>
             <p className="ptag">
                 I am Jonathon. I am a full stack developer. I am familiar with, React, MongoDB, Mysql, and HTML and CSS! <br />I am always trying to better my development
