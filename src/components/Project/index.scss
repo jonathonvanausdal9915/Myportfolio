@@ -306,19 +306,51 @@ h1 {
       
   }
 
-  @media(max-width:900px) {
+  @media(max-width:1000px) {
     .project-layout {
-        height:80%;
+        height:50%;
         width:80%;
         margin:auto;
         text-align: center;
         display:flex;
         flex-direction:column;
         justify-content: center;
+        position:absolute;
+        top:55rem;
+        left:65%;
      
        
         color:white;
     }
+    .neonText {
+      width:40%;
+      left:30%;
+    }
+   #iframe1 {
+    width:280px;
+    height:71px
+   }
+   .project-1 {
+    width:280px;
+    height:71px
+   }
+   #iframe2 {
+    width:280px;
+    height:71px
+   }
+   .project-2 {
+    width:280px;
+    height:71px
+   }
+   #iframe3 {
+    width:280px;
+    height:71px
+   }
+   .project-3 {
+    width:280px;
+    height:71px
+   }
+  
       
   }
   #iframe1 {

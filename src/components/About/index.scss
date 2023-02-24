@@ -6,7 +6,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     left: 200px;
     right: 0;
-    top:15px;
+    top:25%;
     width: 300px;
     height: 50px;
     animation: fadeIn 4s;
@@ -20,9 +20,9 @@
 .html-pic {
     display:block;
     position:absolute;
-    top:60vh;
-    left:1vw;
-    height:150px;
+    top:55rem;
+    left:4rem;
+    height:15rem;
     animation: fadeIn 8s;
     
 }
@@ -30,28 +30,31 @@
     display:block;
     position:absolute;
     left:55%;
-    height:12vh;
+    top:40rem;
+    height:15rem;
     animation: fadeIn 8s;
     
 }
 .h2-about {
+    position:absolute;
+    bottom:15rem;
     font-size:55px;
     color:white;
 }
-@media (max-height:1000px){
-    .react-pic {
-        height:100px;
-        left:50%;
-        top:850%;
+// @media (max-height:1000px){
+//     .react-pic {
+//         height:100px;
+//         left:50%;
+//         top:850%;
         
-    }
-    .html-pic {
-        height:100px;
-        left:20%;
-        top:1050%;
-    }
-    .ptag{
-        font-size:20px;
-        width:400px;
-    }
-}
+//     }
+//     .html-pic {
+//         height:100px;
+//         left:20%;
+//         top:1050%;
+//     }
+//     .ptag{
+//         font-size:20px;
+//         width:400px;
+//     }
+// }

@@ -98,8 +98,49 @@ animation: fadeIn 1s 1.7s backwards;
         
         
     }
+    .email {
+        width:50%;
+    }
+    .location {
+        width:50%;
+    }
+    .phone {
+        width:50%;
+    }
     .contact-form {
+        left:20%;
+    }
+    .h2 {
+      font-size:15px;
+    }
+}
+@media (max-width:800px){
+    .contact-me {
+        flex-direction: column;
+        position:absolute;
+        display: block;
+        position: absolute;
         left:35%;
+        bottom:20vh;
+        font-size:25px;
+        
+        
+        
+    }
+    .email {
+        width:50%;
+        font-size:15px;
+    }
+    .location {
+        width:50%;
+        font-size:15px;
+    }
+    .phone {
+        width:50%;
+        font-size:15px;
+    }
+    .contact-form {
+        left:20%;
     }
     .h2 {
       font-size:15px;
