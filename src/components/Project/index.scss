@@ -1,6 +1,6 @@
 .project-layout {
     height:80%;
-    width:80%;
+    width:100rem;
     margin:auto;
     text-align: center;
     display:flex;
@@ -11,7 +11,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
  
    
     color:white;
@@ -125,7 +125,10 @@ h1 {
   } 
 }
 .project-1{
-    width:460px;
+    position:absolute;
+    left:10%;
+    top:15rem;
+    width:380px;
     height:251px;
     color:white;
     animation: fadeIn 5s 5s backwards;
@@ -134,6 +137,9 @@ h1 {
 }
 
 .project-2{
+  position:absolute;
+  left:10%;
+  top:45rem;
     width:380px;
     height:251px;
     color:white;
@@ -141,13 +147,13 @@ h1 {
     
     animation: fadeIn 2s 2s backwards;
     margin:auto;
-    // box-shadow:
-    // 0 0 30px 15px #fff,  /* inner white */
-    // 0 0 50px 30px #f0f, /* middle magenta */
-    // 0 0 70px 45px blue; /* outer cyan */
+ 
    
 }
 .project-3 {
+    position:absolute;
+    left:50%;
+    top:45rem;
     width:460px;
     height:251px;
     color:white;
@@ -156,6 +162,19 @@ h1 {
    
     animation: fadeIn 4s 4s backwards;
     
+}
+.project-4 {
+  position:absolute;
+  left:50%;
+  top:15rem;
+  width:460px;
+  height:251px;
+  color:white;
+  margin:auto;
+ 
+ 
+  animation: fadeIn 6 6s backwards;
+  
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
@@ -270,89 +289,6 @@ h1 {
     bottom: 100%;
   }
 }
-
-
-
-@media(max-height:900px) {
-    .giphy-embed {
-        width:360px;
-        height:161px;
-    }
-      .btn-1 {
-          font-size: 10px;
-      }
-  .project-1 {
-    width:360px;
-    height:161px;
-      margin:auto;
-     
-       
-      }
-      .project-2 {
-        width:360px;
-        height:161px;
-      margin:auto;
-     
-       
-  
-      }
-      .project-3 {
-        width:360px;
-        height:161px;
-          margin:auto;
-        
-      
-      }
-      
-  }
-
-  @media(max-width:1000px) {
-    .project-layout {
-        height:50%;
-        width:80%;
-        margin:auto;
-        text-align: center;
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        position:absolute;
-        top:55rem;
-        left:65%;
-     
-       
-        color:white;
-    }
-    .neonText {
-      width:40%;
-      left:30%;
-    }
-   #iframe1 {
-    width:280px;
-    height:71px
-   }
-   .project-1 {
-    width:280px;
-    height:71px
-   }
-   #iframe2 {
-    width:280px;
-    height:71px
-   }
-   .project-2 {
-    width:280px;
-    height:71px
-   }
-   #iframe3 {
-    width:280px;
-    height:71px
-   }
-   .project-3 {
-    width:280px;
-    height:71px
-   }
-  
-      
-  }
   #iframe1 {
     border-radius:25px;
     background-color:black;
@@ -384,3 +320,193 @@ h1 {
     0 0 2.8rem blue,
     inset 0 0 1.3rem blue; 
   }
+  #iframe4{
+    background-color:black;
+    border-radius:25px;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem blue,
+    0 0 0.8rem blue,
+    0 0 2.8rem blue,
+    inset 0 0 1.3rem blue; 
+  }
+  @media (max-width:1100px){
+    .project-layout {
+      height:80%;
+      width:100rem;
+      margin:auto;
+      text-align: center;
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+   
+     
+      color:white;
+  }
+  .project-1{
+    position:absolute;
+    left:40%;
+    top:8rem;
+    width:230px;
+    height:101px;
+    color:white;
+    animation: fadeIn 5s 5s backwards;
+    margin:auto;
+   
+}
+#iframe1 {
+  width:230px;
+  height:101px;
+}
+
+.project-2{
+  position:absolute;
+  left:40%;
+  top:30rem;
+  width:230px;
+  height:101px;
+    color:white;
+    display: block;
+    
+    animation: fadeIn 2s 2s backwards;
+    margin:auto;
+ 
+   
+}
+#iframe2 {
+  width:230px;
+  height:101px;
+
+}
+.project-3 {
+    position:absolute;
+    left:40%;
+    top:55rem;
+    width:180px;
+    height:51px;
+    color:white;
+    margin:auto;
+   
+   
+    animation: fadeIn 4s 4s backwards;
+    
+}
+#iframe3{
+  width:230px;
+  height:101px;
+}
+.project-4 {
+  position:absolute;
+  left:40%;
+  top:80rem;
+  width:230px;
+  height:101px;
+  color:white;
+  margin:auto;
+ 
+ 
+  animation: fadeIn 6 6s backwards;
+  
+}
+#iframe4 {
+  width:230px;
+  height:101px;
+}
+  
+}
+@media (max-width:600px){
+  .project-layout {
+    height:80%;
+    width:100rem;
+    margin:auto;
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ 
+   
+    color:white;
+}
+.project-1{
+  position:absolute;
+  left:45%;
+  top:8rem;
+  width:180px;
+  height:51px;
+  color:white;
+  animation: fadeIn 5s 5s backwards;
+  margin:auto;
+ 
+}
+#iframe1 {
+  width:180px;
+  height:51px;
+}
+
+.project-2{
+position:absolute;
+left:45%;
+top:25rem;
+width:180px;
+height:51px;
+  color:white;
+  display: block;
+  
+  animation: fadeIn 2s 2s backwards;
+  margin:auto;
+
+ 
+}
+#iframe2 {
+  width:180px;
+  height:51px;
+
+}
+.project-3 {
+  position:absolute;
+  left:45%;
+  top:45rem;
+  width:180px;
+  height:51px;
+  color:white;
+  margin:auto;
+ 
+ 
+  animation: fadeIn 4s 4s backwards;
+  
+}
+#iframe3{
+  width:180px;
+  height:51px;
+}
+.project-4 {
+position:absolute;
+left:45%;
+top:60rem;
+width:180px;
+height:51px;
+color:white;
+margin:auto;
+
+
+animation: fadeIn 6 6s backwards;
+
+}
+#iframe4 {
+  width:180px;
+  height:51px;
+}
+
+}
